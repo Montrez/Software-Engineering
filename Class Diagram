@@ -1,0 +1,74 @@
+User
+  *ID (name): String
+  *Screen_name: String
+  *Password : String
+  *email : String
+  *LogIn : Bool
+  *date_join_group: array
+ ------
+   +create_post()
+   +del_post()
+   +comment on a thread()
+   +recent_post_comment
+   +Join Group()
+   +record_date_join_group()
+   +Leave Group()
+   +setting()// delete a account, change password, ect
+   +history()//comment,thread
+   +profile()//Join what group, post threads, answer post,favorite group or topic
+   
+   
+   
+non_login_user
+  *ID: int
+  -----
+  +see_post
+  +register_new_user()
+  
+  
+   
+Admin
+  *Master Id : string
+ ------ 
+  +See post
+  +Create Group()
+  +Del Group()
+  +Remove a user from a group()
+  +Ban User()
+  +Register_new_user()
+  
+  
+Post
+  *ID :int
+  *category_ID: int
+  *top_title: String
+  *Post_creator: string
+  *Post_date: int
+  *num_view: int
+  *num_comment: int
+  --------
+  +post_del()
+  +post_update_Content()
+  +postUpdate_comment()
+  +post_modify()
+  
+  
+  
+Group
+  *ID: int
+  *Group_Creator: string
+  *Group_date: int
+  *Group_memeber: array
+  *category_id : int
+  *title_description: string
+ ---------------
+ +Group_del()
+ +Group_accept_member()
+ +remove_member()
+ +del_memeber()
+ +Event()
+ +post()
+ +recent__answer_post()
+ +recent_unanswer_post()
+ 
+ 
