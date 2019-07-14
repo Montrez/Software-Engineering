@@ -59,7 +59,7 @@
 
     5. Join group 
         * A. User can go to a sub tab that has all groups.
-        * B. User has abilty to add groups to his favorites
+        * B. User has ability to add groups to his favorites
         * C. Have a list of favorite groups
         * D. If already in group tell user
 
